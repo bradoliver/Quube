@@ -70,6 +70,20 @@ p {
   }
 }
 
+@media (min-width: 1824px) {
+  .container {
+    width: 1780px;
+  }
+  header .hero h1 {
+    font-size:60px;
+    line-height: 72px;
+  }
+  header .hero p {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
 /* HEADER */
 header {
   color:#FFFFFF;
