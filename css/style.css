@@ -90,7 +90,7 @@ p {
 /* HEADER */
 header {
   color:#FFFFFF;
-  background: url('../images/hero-background.jpg') top center no-repeat, #f9f9f9;
+  background: url('../images/hero-background.png') top center no-repeat, #f9f9f9;
 }
 header nav {
   padding:1em 0;
