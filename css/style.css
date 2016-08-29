@@ -433,6 +433,9 @@ footer .quube {
   header {
     max-height: 480px;
   }
+  div.header {
+    padding-top: 60px;
+  }
   img#laptop {
     display: none;
   }
@@ -518,6 +521,9 @@ footer .quube {
   }
   footer ul {
     padding-left: 0;
+  }
+  div#user.settings {
+    display: none;
   }
 }
 
