@@ -112,17 +112,6 @@ header .hero img {
   box-shadow: 0px 2px 0px 0px #12455B;
 }
 
-.btn.add {
-  border-radius: 4px;
-  color:#FFFFFF;
-  font-weight: 700;
-  text-decoration: none;
-  padding:10px 35px;
-  background: #ED4b4b;
-  border: 2px solid #ED4b4b;
-  box-shadow: 0px 2px 0px 0px #993030;
-}
-
 /* BENEFITS */
 .benefits {
   background: #f9f9f9;
@@ -811,7 +800,7 @@ footer .quube {
 
 /* HEADER SETTINGS */
  .header .settings {
-   display: block;
+   display: inline-block;
    float: right;
    padding: 5px 0 5px 50px;
  }
@@ -829,15 +818,23 @@ footer .quube {
    font-weight: 400;
    margin:0 0 0 5px;
  }
- .header .settings a {
+ .header .settings a#cog {
    color: #333333;
    text-decoration: none;
    text-align: right;
    float: right;
    margin-right: 0px;
    margin-left: 30px;
-   margin-top: 9px;
+   margin-top: -6px;
  }
+ .add {
+  color: #FFFFFF !important;
+  padding:10px 35px;
+  background: #ED4b4b;
+  border: 2px solid #ED4b4b;
+  box-shadow: 0px 2px 0px 0px #993030;
+  margin-top: -18px !important;
+}
  
  /* Larger Mobile Devices */
  @media (min-width:460px) {
